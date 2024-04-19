@@ -28,7 +28,7 @@ namespace _11_day
             int minValue = (int)numericUpDown2.Value;
             int maxValue = (int)numericUpDown3.Value;
 
-            ArrayHelper arrayHelper = new ArrayHelper(size, minValue, maxValue);
+            ArrayHelper<int> arrayHelper = new ArrayHelper<int>(size, minValue, maxValue);
 
             dataGridView1.Rows.Clear();
             dataGridView1.Columns.Clear();
