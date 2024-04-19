@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class ArrayHelper
+class ArrayHelper<T>
 {
     private static Random random = new Random();
 
